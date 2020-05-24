@@ -1,0 +1,143 @@
+######################## default configuration ####################
+baseURL = "https://kevinrp.github.io/restaurant/"
+languageCode = "en-us"
+title = "Unidad Edicativa Particular Borja"
+theme = "restaurant-hugo"
+publishDir = "docs"
+summaryLength = "7"
+paginate = 6
+
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+URL = "css/bootstrap.min.css"
+[[params.plugins.css]]
+URL = "css/slick.css"
+[[params.plugins.css]]
+URL = "css/font-awesome.min.css"
+[[params.plugins.css]]
+URL = "css/animate.min.css"
+[[params.plugins.css]]
+URL = "css/venobox.css"
+[[params.plugins.css]]
+URL = "css/main.css"
+[[params.plugins.css]]
+URL = "css/responsive.css"
+
+# JS Plugins
+[[params.plugins.js]]
+URL = "js/jquery.min.js"
+[[params.plugins.js]]
+URL = "js/bootstrap.min.js"
+[[params.plugins.js]]
+URL = "js/slick.min.js"
+[[params.plugins.js]]
+URL = "js/wow.min.js"
+[[params.plugins.js]]
+URL = "js/venobox.min.js"
+[[params.plugins.js]]
+URL = "js/main.js"
+
+############################## navigation ###############################
+
+[[menu.main]]
+name = "Inicio"
+URL = "hero-area"
+weight = 1
+
+[[menu.main]]
+name = "Historia"
+URL = "about-us"
+weight = 2
+
+[[menu.main]]
+name = "Quienes somos"
+URL = "price"
+weight = 3
+
+[[menu.main]]
+name = "Últimas Noticias"
+URL = "blog"
+weight = 4
+
+[[menu.main]]
+name = "Suscríbete"
+URL = "subscribe"
+weight = 5
+
+[[menu.main]]
+name = "Contáctanos"
+URL = "contact-us"
+weight = 6
+
+
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.jpg"
+# meta data
+author = "Grupo 8"
+description = "This is meta description"
+# google analitycs ID
+google_analitycs_id = "Your ID"
+# copyright
+copyright = "Copyright 2020 - All Rights Reserved."
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "" # use .png , .svg or .gif format
+
+################################### Footer ############################
+[params.footer]
+enable = true
+contactInfoTitle = "INFORMACIÓN DE <span>CONTACTO</span> "
+blogTitle = "ÚLTIMOS<span>POST</span>"
+galleryTitle = "FOTOS <span></span>"
+socialTitle = "Síguenos <span></span>"
+
+############################ footer contact item
+[[params.footer.contactItem]]
+title="Teléfono"
+icon = "fa fa-phone"
+content = "PBX: 200 3520 / 2001590"
+
+[[params.footer.contactItem]]
+title="Dirección"
+icon = "fa fa-map-marker"
+content = "Av. del Bombero, Km. 5.5, Guayaquil "
+
+[[params.footer.contactItem]]
+title="E-mail"
+icon = "fa fa-envelope"
+content = "info@uejavierec.edu.ec"
+
+######################### footer gallery
+[[params.footer.gallery]]
+image = "images/slider/image1.png"
+
+[[params.footer.gallery]]
+image = "images/slider/image2.png"
+
+[[params.footer.gallery]]
+image = "images/slider/image3.png"
+
+[[params.footer.gallery]]
+image = "images/slider/image4.png"
+
+[[params.footer.gallery]]
+image = "images/slider/image5.png"
+
+[[params.footer.gallery]]
+image = "images/slider/image6.png"
+
+######################## Social Icon 
+[[params.footer.socialLink]]
+icon = "facebook"
+link = "https://www.facebook.com/uejavierec/"
+
+[[params.footer.socialLink]]
+icon = "twitter"
+link = "https://twitter.com/UEBorja?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
